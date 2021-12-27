@@ -1,0 +1,42 @@
+.navbar{
+    background-color: teal;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+ }
+ul{
+    list-style-type: none;
+    overflow: auto;
+    margin-left: 50px;
+}
+li{
+    padding: 10px 10px;
+    float: left;   
+}
+
+ #linkHome{
+    font-family: abc;
+    color: yellow; 
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#myName
+{
+    margin-left: 85%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+}
+
+.linkStates:hover{
+    color: yellow;
+}
+.linkStates:visited{
+    color: white;
+}
+.linkStates:active{
+    color: white;
+}

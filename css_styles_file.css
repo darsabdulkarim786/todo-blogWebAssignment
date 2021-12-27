@@ -1,0 +1,112 @@
+@font-face{
+    font-family: abc;
+    src: url('styleFonts/Wildstone-Regular.otf')
+}
+@font-face{
+    font-family: xyz;
+    src: url('styleFonts/hotpizza.ttf')
+}
+
+
+/*
+.linkStates{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: xyz;
+}
+
+
+
+
+
+
+*/
+
+
+
+
+.homeLinkStates{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: times new roman;
+}
+
+.homeLinkStates:hover{
+    color: orange;
+}
+.homeLinkStates:visited{
+    color: white;
+}
+.homeLinkStates:active{
+    color: white;
+}
+
+.itemsViewer{
+    margin-top: 50px;
+    background-color:rgb(17, 39, 53);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.labelStyle{
+    color: yellow;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'times new roman';
+}
+.labelStyle2{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'times new roman';
+}
+
+body{
+    background-color: rgb(236, 213, 213);
+    height: 1000px;
+}
+
+.loginControls{
+    width: 30%;
+    color: blue;
+    background-color: white;
+    border-width:  1.5px;
+    border-color: blue;
+    border-radius: 9px;
+    padding: 4px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.buttons{
+    color:white;
+    background-color: blue;
+    border-color: blue;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    align-content: center;
+    align-items: center;
+    font-size: 9px;
+    width: 80px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.buttons:hover{
+    background-color: rgb(228, 215, 228);
+    color: rgb(22, 14, 14);
+}
+.loginControlsDiv{
+    margin-top: 50px;
+    
+}
+.loginControlsDiv2{
+    margin-top: 20px;
+}
+
